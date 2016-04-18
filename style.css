@@ -1,0 +1,119 @@
+/* Dirt Circle Dogs: Redux */
+/* ======================= */
+
+@font-face {
+  font-family: 'narrator';
+  font-style: normal;
+  font-weight: normal;
+  src: url('greenmudnarrator-regular-webfont.woff') format('woff'),
+    url('greenmudnarrator-regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'narrator';
+  font-style: normal;
+  font-weight: bold;
+  src: url('greenmudnarrator-bold-webfont.woff') format('woff'),
+    url('greenmudnarrator-bold-webfont.ttf') format('truetype');
+}
+
+
+/* Root */
+/* ---- */
+
+:root {
+  background: #000;
+  color: #eee;
+  font-family: 'narrator', Baskerville, Palatino, Cambria, Georgia, serif;
+  font-size: 150%;
+  font-size: calc(150% + .4vmin);
+  line-height: 1.4;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 32rem;
+  padding: 1rem;
+}
+
+a:link,
+a:visited {
+  color: #f66;
+  font-weight: bold;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #fff;
+}
+
+
+/* Banner */
+/* ------ */
+
+h1 {
+  background: url('logo.gif') no-repeat scroll top;
+  background-size: 100% auto;
+  line-height: inherit;
+  font-size: inherit;
+  margin-bottom: 2rem;
+  padding-top: 45%;
+}
+
+h1 div {
+  background: #eee;
+  color: #000;
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* Quotes */
+/* ------ */
+
+blockquote {
+  margin: 1rem;
+}
+
+q {
+  display: block;
+}
+
+q:before {
+  content: "“";
+}
+
+q:after {
+  content: "”";
+}
+
+cite {
+  font-size: .75rem;
+  font-style: normal;
+}
+
+
+/* Music */
+/* ----- */
+
+figure {
+  margin: 2rem 1rem;
+}
+
+
+/* Footer */
+/* ------ */
+
+footer {
+  border-top: 1px dotted #ccc;
+  font-size: .75rem;
+  margin: 4rem 0;
+  padding: 1rem;
+}
+
+footer div {
+  text-transform: uppercase;
+}
