@@ -75,7 +75,9 @@ h1 div {
 /* ------ */
 
 blockquote {
-  margin: 1rem;
+  border-left: medium solid;
+  margin: 1rem 0;
+  padding-left: 1rem;
 }
 
 q {
@@ -100,7 +102,7 @@ cite {
 /* ----- */
 
 figure {
-  margin: 2rem 1rem;
+  margin: 2rem 0;
 }
 
 
